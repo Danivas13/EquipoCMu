@@ -1,14 +1,15 @@
 {
     "COMMONS": {
         "MENU": {
-          "MNU_BDL_SCE":"Fromulario clientes",
-			"MNU_BDL_SCE1":"Buscar cliente",
-			"MNU_BDL_SCE1":"Buscar cliente",
-			"MNU_BDL_SCE2":"Listado clientes",
-			"MNU_BDL_SCE3":"Eliminar clientes",
-	    "MNU_BDL_DANIVAS":"Insertar Producto",
-	    "MNU_BDL_DANIVAS_P":"Visualizar Productos",
-		
+			"BuscarClienteBDL":"Buscar Cliente BDL",
+			"BusquedaClientesBDL":"Buscar Cliente Eva BDL",
+			"FACTURACION_BDL_list":"Lista de Productos BDL",
+			"cli_bd":"Agregar Cliente BDL",
+			"MNU_Persona_bdl":"Agregar Personas BDL",
+			"MNU_BDL_DANIVAS":"Insertar Producto BDL",
+			"MNU_BDL_DANIVAS_P":"Visualizar Productos BDL",
+			"Calculadora_Byron_Delgado":"Calculadora BDL",
+			"Calificaciones_Byron_Delgado":"Calificaciones BDL",
             "MNU_PRODUCTO_JPM":"Crud Producto JPM",
             "MNU_CALF_JPMC": "Calificaciones Juan Pablo Macias Cortes",
             "MNU_CALCU_JPMC": "Calculadora Juan Pablo Macias Cortes",
