@@ -1,4 +1,4 @@
 {	
-	"nombre": "Jefferson",
+	
 	"apellido": "Noroña"
 }
