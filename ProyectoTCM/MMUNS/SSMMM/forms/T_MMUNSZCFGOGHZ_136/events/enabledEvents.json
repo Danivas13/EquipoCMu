@@ -1,2 +1,16 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONQAPMYMB_846243",
+		"controlName": "VA_VABUTTONQAPMYMB_846243",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "DJVGEntidad",
+		"eventsType": "visualAttributeEventType"
+	}
 ]
