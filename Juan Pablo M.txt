@@ -1,4 +1,3 @@
 {
-    "nombre":"Juan Pablo",
     "Apellido":"Macias Cortes"
 }
