@@ -1,0 +1,19 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "MMUNS",
+	"modules": [
+		{
+			"moduleId": "MMUNS",
+			"moduleName": "Main",
+			"subModules": [
+				{
+					"subModuleId": "SSMMM",
+					"subModuleName": "Main"
+				}
+			]
+		}
+	],
+	"projectName": "ProyectoTCM",
+	"subModuleId": "SSMMM"
+}
