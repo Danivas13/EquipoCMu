@@ -19,14 +19,14 @@
             "MNU_SAVE_JPM":"Guardar Producto JPM",
             "MNU_VER_JPM":"Ver productos JPM",
             "MNU_BUS_JPM":"Buscar Cliente JPM",			
-			"Calificaciones_Jefferson_Norona":"Calificaciones Jefferson Norona",
-			"Calculadora_Jefferson_Norona":"Calculadora Jefferson Norona",			
-			"MNU_JN_RTC":"Crear Cliente",
+			"Calificaciones_Jefferson_Norona1":"Calificaciones Jefferson Norona",
+			"Calculadora_Jefferson_Norona1":"Calculadora Jefferson Norona",			
+			"MNU_JN_RTC1":"Crear Cliente",
 			"MNU_JN_CSL":"Buscar Cliente",	
 			"JeffersonNorona": "Jefferson Norona",
 			"MNU_FRM_INGP": "Ingresar Producto",
-		
-			
+		1
+			1
         }
     }
 }
