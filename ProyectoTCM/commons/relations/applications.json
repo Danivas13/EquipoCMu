@@ -5,7 +5,7 @@
 		"forms": {
 			"MMUNS": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "MMUNS",
 					"name": "EstudianteBDDLForm",
 					"subModuleId": "SSMMM",
@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "MMUNS",
 					"name": "EstudianteDJVGForm",
 					"subModuleId": "SSMMM",

@@ -21,7 +21,7 @@
 			"objectType": null,
 			"order": 4,
 			"pkStr": "F",
-			"requiredStr": "F",
+			"requiredStr": "T",
 			"transientStr": "F",
 			"trueValue": null
 		},
@@ -45,7 +45,7 @@
 			"objectType": null,
 			"order": 1,
 			"pkStr": "F",
-			"requiredStr": "F",
+			"requiredStr": "T",
 			"transientStr": "F",
 			"trueValue": null
 		},
@@ -69,7 +69,7 @@
 			"objectType": null,
 			"order": 2,
 			"pkStr": "F",
-			"requiredStr": "F",
+			"requiredStr": "T",
 			"transientStr": "F",
 			"trueValue": null
 		},
@@ -93,7 +93,7 @@
 			"objectType": null,
 			"order": 3,
 			"pkStr": "F",
-			"requiredStr": "F",
+			"requiredStr": "T",
 			"transientStr": "F",
 			"trueValue": null
 		}

@@ -85,6 +85,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_BDDLKQGTT_410.json#/attributes/AT64_APELLIOD410"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_APELLIDOTTPOJEY_93372179",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESAEE_83114"
+											},
+											"labelId": "MSG_MMUNS_INGRESAEE_83114",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
@@ -130,6 +145,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_BDDLKQGTT_410.json#/attributes/AT27_EDADZPOR410"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_EDADUEXNTDCTOPC_31972130",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESAAA_72999"
+											},
+											"labelId": "MSG_MMUNS_INGRESAAA_72999",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
@@ -175,6 +205,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_BDDLKQGTT_410.json#/attributes/AT36_NOMBREVN410"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_NOMBREUEBRFXVHS_83372129",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESANO_94797"
+											},
+											"labelId": "MSG_MMUNS_INGRESANO_94797",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
@@ -220,6 +265,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_BDDLKQGTT_410.json#/attributes/AT69_SEXOWNFR410"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_SEXODZSWYNKXIAU_22872115",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESAOS_93571"
+											},
+											"labelId": "MSG_MMUNS_INGRESAOS_93571",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"cacheDuration": 0,
 								"catalogName": "cl_sexo",
