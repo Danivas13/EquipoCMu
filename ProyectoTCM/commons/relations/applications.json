@@ -15,6 +15,22 @@
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"name": "EstudianteJNForm",
+					"subModuleId": "SSMMM",
+					"taskId": "T_MMUNSNHFJGGEJ_793",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMUNS",
+					"name": "EstudianteEBSMForm",
+					"subModuleId": "SSMMM",
+					"taskId": "T_MMUNSTDHCDWWU_517",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMUNS",
 					"name": "EstudianteDJVGForm",
 					"subModuleId": "SSMMM",
 					"taskId": "T_MMUNSZCFGOGHZ_136",

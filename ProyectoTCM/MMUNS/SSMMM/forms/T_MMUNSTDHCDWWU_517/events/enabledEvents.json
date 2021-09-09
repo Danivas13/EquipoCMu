@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONGIKEXBR_121382",
+		"controlName": "VA_VABUTTONGIKEXBR_121382",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "EBSMEntidad",
+		"eventsType": "visualAttributeEventType"
+	}
+]
