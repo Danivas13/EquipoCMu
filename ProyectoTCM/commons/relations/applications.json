@@ -7,40 +7,50 @@
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "EstudianteBDDLForm",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSFVHMRFSG_308",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "EstudianteJPMCForm",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSHNCIBHEI_238",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "EstudianteJNForm",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSNHFJGGEJ_793",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "EstudianteEBSMForm",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSTDHCDWWU_517",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "EstudianteDJVGForm",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSZCFGOGHZ_136",
 					"type": "Simple form"
 				}

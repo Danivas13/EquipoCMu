@@ -85,6 +85,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_JNMOYADWW_337.json#/attributes/AT59_APELLIDO337"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_APELLIDOAZDASOY_83557725",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESEPL_20617"
+											},
+											"labelId": "MSG_MMUNS_INGRESEPL_20617",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
@@ -130,6 +145,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_JNMOYADWW_337.json#/attributes/AT59_EDADXSPX337"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_EDADZXOHTIKJTKJ_41357775",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESEEA_36298"
+											},
+											"labelId": "MSG_MMUNS_INGRESEEA_36298",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
@@ -175,6 +205,21 @@
 									"$ref": "../../../../MMUNS/entities/EN_JNMOYADWW_337.json#/attributes/AT44_NOMBRERO337"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_NOMBREQYMUIFUJO_12757792",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMUNS/assets/languages/MMUNS.json#/MMUNS/MSG/MSG_MMUNS_INGRESEBN_21112"
+											},
+											"labelId": "MSG_MMUNS_INGRESEBN_21112",
+											"moduleId": "MMUNS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
