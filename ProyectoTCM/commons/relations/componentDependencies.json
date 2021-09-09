@@ -2,6 +2,10 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_BDDLKQGTT_410": {
+			"labels": [
+			]
+		},
 		"EN_DJVGIIQYG_709": {
 			"labels": [
 			]
@@ -20,6 +24,35 @@
 		}
 	},
 	"Forms": {
+		"T_MMUNSFVHMRFSG_308": {
+			"blis": [
+			],
+			"entities": {
+				"EN_BDDLKQGTT_410": [
+					"AT27_EDADZPOR410",
+					"AT36_NOMBREVN410",
+					"AT64_APELLIOD410",
+					"AT69_SEXOWNFR410"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMUNS_APELLIDOO_29189",
+				"LBL_MMUNS_EDADYLMMM_52714",
+				"LBL_MMUNS_GUARDAREN_76181",
+				"LBL_MMUNS_NOMBRETVX_56821",
+				"LBL_MMUNS_SEXOTEJVN_33007"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_MMUNSHNCIBHEI_238": {
 			"blis": [
 			],

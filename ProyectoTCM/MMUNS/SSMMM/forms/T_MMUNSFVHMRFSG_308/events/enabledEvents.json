@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONBHMOUKX_842721",
+		"controlName": "VA_VABUTTONBHMOUKX_842721",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "BDDLEntidad",
+		"eventsType": "visualAttributeEventType"
+	}
+]

@@ -1,5 +1,8 @@
 {
 	"Entities": {
+		"EN_BDDLKQGTT_410": {
+			"name": "BDDLEntidad"
+		},
 		"EN_DJVGIIQYG_709": {
 			"name": "DJVGEntidad"
 		},
@@ -17,6 +20,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_MMUNSFVHMRFSG_308": {
+				"name": "EstudianteBDDLForm"
+			},
 			"T_MMUNSHNCIBHEI_238": {
 				"name": "EstudianteJPMCForm"
 			},
