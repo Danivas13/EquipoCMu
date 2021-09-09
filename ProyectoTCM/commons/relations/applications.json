@@ -5,11 +5,11 @@
 		"forms": {
 			"MMUNS": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMUNS",
-					"name": "Principal",
+					"name": "EstudianteDJVGForm",
 					"subModuleId": "SSMMM",
-					"taskId": "T_MMUNSJMHDEXXJ_983",
+					"taskId": "T_MMUNSZCFGOGHZ_136",
 					"type": "Simple form"
 				}
 			]
@@ -23,7 +23,7 @@
 			"type": "HTML5"
 		},
 		"id": "APP_GROUP1HQCYP_974",
-		"mainPortletTaskId": "T_MMUNSJMHDEXXJ_983",
+		"mainPortletTaskId": "T_MMUNSZCFGOGHZ_136",
 		"modules": [
 			"MMUNS"
 		],

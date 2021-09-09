@@ -222,7 +222,7 @@
 								"attributeValidations": [
 								],
 								"cacheDuration": 0,
-								"catalogName": null,
+								"catalogName": "cl_sexo",
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
