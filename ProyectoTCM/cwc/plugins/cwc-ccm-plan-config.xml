@@ -1212,7 +1212,11 @@
       <plugin name="admct.cobis.patterns" path="../../ADMCT/plugins/admct.cobis.patterns-1.0.0.jar"/>
     </plan>
      <plan id="TEAMCM-Semillero-plugins" reloadable="true">
-      <! -- Plugins aqui  -->
+      <!-- Plugins aqui  -->
+      <plugin name="mmuns.domains-1.0.0" path="../../TEAMCM/plugins/mmuns.domains-1.0.0.jar" />
+      <plugin name="mmuns.group1.customevents.impl-1.0.0" path="../../TEAMCM/plugins/mmuns.group1.customevents.impl-1.0.0.jar" />
+      <plugin name="mmuns.group1.customevents.view-1.0.0" path="../../TEAMCM/plugins/mmuns.group1.customevents.view-1.0.0.jar" />
+      <plugin name="mmuns.group1.services-1.0.0" path="../../TEAMCM/plugins/mmuns.group1.services-1.0.0.jar" />
     </plan>
    
   </own>
