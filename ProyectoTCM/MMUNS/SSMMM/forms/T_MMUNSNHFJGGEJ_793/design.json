@@ -55,8 +55,8 @@
 				"groups": [
 					{
 						"collapsedStr": "F",
-						"colSpan": 1,
-						"columnsNum": 3,
+						"colSpan": 2,
+						"columnsNum": 2,
 						"componentStyle": null,
 						"customEvents": [
 						],
@@ -78,68 +78,6 @@
 						"style": null,
 						"visible": 4095,
 						"visualAttributes": [
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "Spacer2727",
-								"options": 0,
-								"order": 3,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"type": "I",
-									"userControlId": "Spacer"
-								},
-								"visible": 4095,
-								"visualAttributeId": "Spacer2727",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "Spacer2993",
-								"options": 0,
-								"order": 6,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"type": "I",
-									"userControlId": "Spacer"
-								},
-								"visible": 4095,
-								"visualAttributeId": "Spacer2993",
-								"width": null,
-								"widthComposite": "D"
-							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
@@ -214,7 +152,7 @@
 								"maxRecords": null,
 								"name": "edad",
 								"options": 0,
-								"order": 4,
+								"order": 3,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -304,7 +242,7 @@
 								"maxRecords": null,
 								"name": "sexo",
 								"options": 0,
-								"order": 5,
+								"order": 4,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -335,8 +273,14 @@
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
 										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
 										],
-										"executionType": 1,
+										"executionType": 7,
 										"filter": null,
 										"isEnabled": true,
 										"visualAttributeEventType": {
@@ -363,7 +307,7 @@
 								"maxRecords": null,
 								"name": "VA_VABUTTONHPNLWNG_219577",
 								"options": 0,
-								"order": 7,
+								"order": 5,
 								"queryModule": null,
 								"queryVersion": null,
 								"responsiveLayouts": null,
