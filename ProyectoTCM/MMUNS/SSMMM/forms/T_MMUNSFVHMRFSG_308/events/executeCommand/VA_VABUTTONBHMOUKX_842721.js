@@ -7,5 +7,5 @@ task.executeCommand.VA_VABUTTONBHMOUKX_842721 = function(  entities, executeComm
 
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.BDDLEntidad = true;
-
+    executeCommandEventArgs.commons.messageHandler.showMessagesInformation("Nombre completo desde el cliente: "+entities.BDDLEntidad.nombre+" "+entities.BDDLEntidad.apellido);
 };

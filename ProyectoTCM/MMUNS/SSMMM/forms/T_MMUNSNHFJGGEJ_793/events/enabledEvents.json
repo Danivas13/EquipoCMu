@@ -7,7 +7,7 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 7
+				"executionType": 3
 			}
 		],
 		"entityName": "JNEntidad",
