@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONHPNLWNG_219577",
+		"controlName": "VA_VABUTTONHPNLWNG_219577",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "JNEntidad",
+		"eventsType": "visualAttributeEventType"
+	}
+]

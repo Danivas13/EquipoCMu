@@ -1,29 +1,38 @@
 {
-  "Entities": {
-    "EN_DJVGIIQYG_709": {
-      "name": "DJVGEntidad"
-    },
-    "EN_EBSMWICBB_747": {
-      "name": "EBSMEntidad"
-    },
-    "EN_JPMCCEYPO_817": {
-      "name": "JPMCEntidad"
-    }
-  },
-  "SSMMM": {
-    "CompositeForms": {},
-    "Forms": {
-      "T_MMUNSHNCIBHEI_238": {
-        "name": "EstudianteJPMCForm"
-      },
-      "T_MMUNSJMHDEXXJ_983": {
-        "name": "Principal"
-      },
-      "T_MMUNSZCFGOGHZ_136": {
-        "name": "EstudianteDJVGForm"
-      }
-    },
-    "Queries": {},
-    "SubForms": {}
-  }
+	"Entities": {
+		"EN_DJVGIIQYG_709": {
+			"name": "DJVGEntidad"
+		},
+		"EN_EBSMWICBB_747": {
+			"name": "EBSMEntidad"
+		},
+		"EN_JNMOYADWW_337": {
+			"name": "JNEntidad"
+		},
+		"EN_JPMCCEYPO_817": {
+			"name": "JPMCEntidad"
+		}
+	},
+	"SSMMM": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMUNSHNCIBHEI_238": {
+				"name": "EstudianteJPMCForm"
+			},
+			"T_MMUNSJMHDEXXJ_983": {
+				"name": "Principal"
+			},
+			"T_MMUNSNHFJGGEJ_793": {
+				"name": "EstudianteJNForm"
+			},
+			"T_MMUNSZCFGOGHZ_136": {
+				"name": "EstudianteDJVGForm"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
 }
