@@ -25,8 +25,8 @@
 			"MNU_JN_CSL":"Buscar Cliente",	
 			"JeffersonNorona": "Jefferson Norona",
 			"MNU_FRM_INGP": "Ingresar Producto",
-		
-			
+		1
+			1
         }
     }
 }
