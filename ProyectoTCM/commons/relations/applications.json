@@ -7,6 +7,14 @@
 				{
 					"generated": 4,
 					"moduleId": "MMUNS",
+					"name": "EstudianteJPMCForm",
+					"subModuleId": "SSMMM",
+					"taskId": "T_MMUNSHNCIBHEI_238",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "MMUNS",
 					"name": "EstudianteDJVGForm",
 					"subModuleId": "SSMMM",
 					"taskId": "T_MMUNSZCFGOGHZ_136",
