@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONORAWPBY_729503",
+		"controlName": "VA_VABUTTONORAWPBY_729503",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "JPMCEntidad",
+		"eventsType": "visualAttributeEventType"
+	}
+]
