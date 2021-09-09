@@ -7,8 +7,10 @@
 				{
 					"generated": 2,
 					"moduleId": "MMUNS",
+					"moduleName": "Main",
 					"name": "Principal",
 					"subModuleId": "SSMMM",
+					"subModuleName": "Main",
 					"taskId": "T_MMUNSJMHDEXXJ_983",
 					"type": "Simple form"
 				}
