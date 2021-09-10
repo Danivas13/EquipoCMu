@@ -17,10 +17,8 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Properties;
 import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
-
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
-import com.cobiscorp.cobis.mmuns.model.BDDLEntidad;
 import com.cobiscorp.cobis.mmuns.model.JNEntidad;
 import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
@@ -44,21 +42,22 @@ public class VA_VABUTTONHPNLWNG_219577 implements IExecuteCommand {
 	@Override
 	public void executeCommand(DynamicRequest arg0, IExecuteCommandEventArgs arg1) {
 		// TODO Auto-generated method stub
-		DataEntity entidadJn = arg0.getEntity(JNEntidad.ENTITY_NAME);
-		String nombre = entidadJn.get(JNEntidad.NOMBRE);
-		String apellido = entidadJn.get(JNEntidad.APELLIDO);
-		char sexo = entidadJn.get(JNEntidad.SEXO);
-		int edad= entidadJn.get(JNEntidad.EDAD);
-		String infoEntidad = nombre + " " + apellido + ",sexo: "+sexo+", edad: "+edad;
-		
+		if (logger.isDebugEnabled()) {
+			logger.logDebug("Start executeCommand in VA_VABUTTONHPNLWNG_219577");
+		}
 		try {
+			DataEntity recuperado = arg0.getEntity(JNEntidad.ENTITY_NAME);
+			String concatenado = recuperado.get(JNEntidad.NOMBRE)+" "+recuperado.get(JNEntidad.APELLIDO)
+			+" "+String.valueOf(recuperado.get(JNEntidad.EDAD))+" "+recuperado.get(JNEntidad.SEXO).toString();
+			
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeCommand in VA_VABUTTONHPNLWNG_219577");
-				logger.logDebug("Imprimiendo desde java: " + infoEntidad);
+				logger.logDebug("Nombre completo: "+concatenado);
+				logger.logDebug("END Command in VA_VABUTTONHPNLWNG_219577");
 			}
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}
+		
 	}
 
 }

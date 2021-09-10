@@ -19,6 +19,7 @@ import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
+import com.cobiscorp.cobis.mmuns.model.DJVGEntidad;
 import com.cobiscorp.cobis.mmuns.model.EBSMEntidad;
 import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
@@ -40,31 +41,24 @@ public class VA_VABUTTONGIKEXBR_121382 implements IExecuteCommand {
 	private static final ILogger logger = LogFactory.getLogger(VA_VABUTTONGIKEXBR_121382.class);
 
 	@Override
-	public void executeCommand(DynamicRequest esbmEntities, IExecuteCommandEventArgs arg1) {
+	public void executeCommand(DynamicRequest arg0, IExecuteCommandEventArgs arg1) {
 		// TODO Auto-generated method stub
+		if (logger.isDebugEnabled()) {
+			logger.logDebug("Start executeCommand in VA_VABUTTONGIKEXBR_121382");
+		}
 		try {
+			DataEntity recuperado = arg0.getEntity(EBSMEntidad.ENTITY_NAME);
+			String concatenado = recuperado.get(EBSMEntidad.NOMBRE)+" "+recuperado.get(EBSMEntidad.APELLIDO)
+			+" "+String.valueOf(recuperado.get(EBSMEntidad.EDAD))+" "+recuperado.get(EBSMEntidad.SEXO).toString();
+			
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeCommand in VA_VABUTTONGIKEXBR_121382");
-				logger.logDebug("Informacion EstudianteESBM");
+				logger.logDebug("Nombre completo: "+ concatenado);
+				logger.logDebug("END Command in VA_VABUTTONGIKEXBR_121382");
 			}
-			
-			DataEntity dataEntityESBM = esbmEntities.getEntity(EBSMEntidad.ENTITY_NAME);
-			String nombre = dataEntityESBM.get(EBSMEntidad.NOMBRE);
-			String apellido = dataEntityESBM.get(EBSMEntidad.APELLIDO);
-			String edad = dataEntityESBM.get(EBSMEntidad.EDAD);
-			String sexo = dataEntityESBM.get(EBSMEntidad.SEXO);
-			
-			String nombreCompleto = nombre + ' ' + apellido;
-			logger.logDebug("nombre: " +nombre);
-			logger.logDebug("apellido: "+apellido);
-			logger.logDebug("NombreCompleto: "+ nombreCompleto);
-			logger.logDebug("Edad: "+ edad);
-			logger.logDebug("Sexo: "+ sexo);
-			
-			
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}
+		
 	}
 
 }

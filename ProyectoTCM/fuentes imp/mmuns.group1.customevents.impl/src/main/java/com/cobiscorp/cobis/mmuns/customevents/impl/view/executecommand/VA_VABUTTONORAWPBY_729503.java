@@ -1,5 +1,5 @@
 /*
- * Archivo: VA_VABUTTONQAPMYMB_846243.java
+ * Archivo: VA_VABUTTONORAWPBY_729503.java
  *
  * Esta aplicacion es parte de los paquetes bancarios propiedad de COBISCORP.
  * Su uso no autorizado queda expresamente prohibido asi como cualquier
@@ -19,7 +19,8 @@ import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
-import com.cobiscorp.cobis.mmuns.model.DJVGEntidad;
+import com.cobiscorp.cobis.mmuns.model.JNEntidad;
+import com.cobiscorp.cobis.mmuns.model.JPMCEntidad;
 import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
 import com.cobiscorp.designer.api.customization.IExecuteCommand;
@@ -29,30 +30,30 @@ import com.cobiscorp.designer.api.managers.DesignerManagerException;
 @Component
 @Service({ IExecuteCommand.class })
 @Properties(value={
-		@Property(name = "view.id", value = "VW_ESTUDIANGE_243"),
+		@Property(name = "view.id", value = "VW_ESTUDIANMM_503"),
 		@Property(name = "view.version", value = "1.0.0"),
-		@Property(name = "view.controlId", value = "VA_VABUTTONQAPMYMB_846243")})
+		@Property(name = "view.controlId", value = "VA_VABUTTONORAWPBY_729503")})
 
-public class VA_VABUTTONQAPMYMB_846243 implements IExecuteCommand {
+public class VA_VABUTTONORAWPBY_729503 implements IExecuteCommand {
 	/**
 	 * Instancia de Logger
 	 */
-	private static final ILogger logger = LogFactory.getLogger(VA_VABUTTONQAPMYMB_846243.class);
+	private static final ILogger logger = LogFactory.getLogger(VA_VABUTTONORAWPBY_729503.class);
 
 	@Override
 	public void executeCommand(DynamicRequest arg0, IExecuteCommandEventArgs arg1) {
 		// TODO Auto-generated method stub
 		if (logger.isDebugEnabled()) {
-			logger.logDebug("Start executeCommand in VA_VABUTTONQAPMYMB_846243");
+			logger.logDebug("Start executeCommand in VA_VABUTTONORAWPBY_729503");
 		}
 		try {
-			DataEntity recuperado = arg0.getEntity(DJVGEntidad.ENTITY_NAME);
-			String concatenado = recuperado.get(DJVGEntidad.NOMBRE)+" "+recuperado.get(DJVGEntidad.APELLIDO)
-			+" "+String.valueOf(recuperado.get(DJVGEntidad.EDAD))+" "+recuperado.get(DJVGEntidad.SEXO).toString();
+			DataEntity recuperado = arg0.getEntity(JPMCEntidad.ENTITY_NAME);
+			String concatenado = recuperado.get(JPMCEntidad.NOMBRE)+" "+recuperado.get(JPMCEntidad.APELLIDO)
+			+" "+String.valueOf(recuperado.get(JPMCEntidad.EDAD))+" "+recuperado.get(JPMCEntidad.SEXO).toString();
 			
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Nombre completo: "+ concatenado);
-				logger.logDebug("END Command in VA_VABUTTONQAPMYMB_846243");
+				logger.logDebug("Nombre completo: "+concatenado);
+				logger.logDebug("END Command in VA_VABUTTONORAWPBY_729503");
 			}
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);

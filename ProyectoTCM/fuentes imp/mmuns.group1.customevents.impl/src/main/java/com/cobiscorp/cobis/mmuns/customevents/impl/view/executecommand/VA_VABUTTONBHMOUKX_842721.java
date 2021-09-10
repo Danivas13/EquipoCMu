@@ -17,10 +17,10 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Properties;
 import org.apache.felix.scr.annotations.Property;
 import org.apache.felix.scr.annotations.Service;
-
 import com.cobiscorp.cobis.commons.domains.log.ILogger;
 import com.cobiscorp.cobis.commons.log.LogFactory;
 import com.cobiscorp.cobis.mmuns.model.BDDLEntidad;
+import com.cobiscorp.cobis.mmuns.model.DJVGEntidad;
 import com.cobiscorp.designer.api.DataEntity;
 import com.cobiscorp.designer.api.DynamicRequest;
 import com.cobiscorp.designer.api.customization.IExecuteCommand;
@@ -39,25 +39,26 @@ public class VA_VABUTTONBHMOUKX_842721 implements IExecuteCommand {
 	 * Instancia de Logger
 	 */
 	private static final ILogger logger = LogFactory.getLogger(VA_VABUTTONBHMOUKX_842721.class);
+
 	@Override
 	public void executeCommand(DynamicRequest arg0, IExecuteCommandEventArgs arg1) {
-		// TODO Auto-generated method stub		
-		
+		// TODO Auto-generated method stub
+		if (logger.isDebugEnabled()) {
+			logger.logDebug("Start executeCommand in VA_VABUTTONBHMOUKX_842721");
+		}
 		try {
-			DataEntity entidadBddl = arg0.getEntity(BDDLEntidad.ENTITY_NAME);
-			String nombre = entidadBddl.get(BDDLEntidad.NOMBRE);
-			String apellido = entidadBddl.get(BDDLEntidad.APELLIDO);
-			Character sexo = entidadBddl.get(BDDLEntidad.SEXO);
-			int edad= entidadBddl.get(BDDLEntidad.EDAD);
-			String infoEntidad = nombre + " " + apellido + ",sexo: "+sexo+", edad: "+edad;
+			DataEntity recuperado = arg0.getEntity(BDDLEntidad.ENTITY_NAME);
+			String concatenado = recuperado.get(BDDLEntidad.NOMBRE)+" "+recuperado.get(BDDLEntidad.APELLIDO)
+			+" "+String.valueOf(recuperado.get(BDDLEntidad.EDAD))+" años "+recuperado.get(BDDLEntidad.SEXO).toString();
 			
 			if (logger.isDebugEnabled()) {
-				logger.logDebug("Start executeCommand in VA_VABUTTONBHMOUKX_842721");
-				logger.logDebug("Imprimiendo desde java: " + infoEntidad);
+				logger.logDebug("Nombre completo: "+concatenado);
+				logger.logDebug("END Command in VA_VABUTTONBHMOUKX_842721");
 			}
 		} catch (Exception ex) {
 			DesignerManagerException.handleException(arg1.getMessageManager(), ex, logger);
 		}
+		
 	}
 
 }
