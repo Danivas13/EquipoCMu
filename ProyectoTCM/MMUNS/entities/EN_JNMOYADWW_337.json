@@ -7,7 +7,7 @@
 			"columnName": null,
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
-			"dataType": "String",
+			"dataType": "Char",
 			"entityPk": {
 				"entityId": "EN_JNMOYADWW_337",
 				"version": "1.0.0"
@@ -79,7 +79,7 @@
 			"columnName": null,
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
-			"dataType": "String",
+			"dataType": "Integer",
 			"entityPk": {
 				"entityId": "EN_JNMOYADWW_337",
 				"version": "1.0.0"

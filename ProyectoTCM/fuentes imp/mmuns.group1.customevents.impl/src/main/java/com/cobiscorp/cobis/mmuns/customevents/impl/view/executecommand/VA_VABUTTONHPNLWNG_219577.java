@@ -47,8 +47,8 @@ public class VA_VABUTTONHPNLWNG_219577 implements IExecuteCommand {
 		DataEntity entidadJn = arg0.getEntity(JNEntidad.ENTITY_NAME);
 		String nombre = entidadJn.get(JNEntidad.NOMBRE);
 		String apellido = entidadJn.get(JNEntidad.APELLIDO);
-		String sexo = entidadJn.get(JNEntidad.SEXO);
-		String edad= entidadJn.get(JNEntidad.EDAD);
+		char sexo = entidadJn.get(JNEntidad.SEXO);
+		int edad= entidadJn.get(JNEntidad.EDAD);
 		String infoEntidad = nombre + " " + apellido + ",sexo: "+sexo+", edad: "+edad;
 		
 		try {
