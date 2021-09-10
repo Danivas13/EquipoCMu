@@ -7,6 +7,6 @@ task.executeCommand.VA_VABUTTONORAWPBY_729503 = function(  entities, executeComm
 
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.JPMCEntidad = true;
-    console.log(entities.JPMCEntidad.nombre+" "+entities.JPMCEntidad.apellido);
+    console.log("El nombre completo es: "+entities.JPMCEntidad.nombre+" "+entities.JPMCEntidad.apellido);
 
 };

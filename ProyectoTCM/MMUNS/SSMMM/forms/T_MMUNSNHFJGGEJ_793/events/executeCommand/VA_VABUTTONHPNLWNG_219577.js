@@ -6,7 +6,7 @@
 task.executeCommand.VA_VABUTTONHPNLWNG_219577 = function(  entities, executeCommandEventArgs ) {
 
     executeCommandEventArgs.commons.execServer = true;
-    Console.log(entities.JNEntidad.nombre+" "+entities.JNEntidad.apellido);
+    console.log(entities.JNEntidad.nombre+" "+entities.JNEntidad.apellido);
      executeCommandEventArgs.commons.messageHandler.showMessagesInformation("El nombre completo es: "+entities.JNEntidad.nombre+" "+entities.JNEntidad.apellido);
 
 };

@@ -8,6 +8,6 @@ task.executeCommand.VA_VABUTTONQAPMYMB_846243 = function(  entities, executeComm
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.DJVGEntidad = true;
     //Imprimir nombre y apellido
-    Console.log(entities.DJVGEntidad.nombre+" "+entities.DJVGEntidad.apellido);
+    console.log("Nombre completo: "+entities.DJVGEntidad.nombre+" "+entities.DJVGEntidad.apellido);
      executeCommandEventArgs.commons.messageHandler.showMessagesInformation("El nombre completo es: "+entities.DJVGEntidad.nombre+" "+entities.DJVGEntidad.apellido);
 };

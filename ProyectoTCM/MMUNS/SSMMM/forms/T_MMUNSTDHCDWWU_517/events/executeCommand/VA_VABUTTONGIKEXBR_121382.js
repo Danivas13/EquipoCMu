@@ -7,5 +7,5 @@ task.executeCommand.VA_VABUTTONGIKEXBR_121382 = function(  entities, executeComm
 
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.EBSMEntidad = true;
-
+    alert("Nombre completo es: "+entities.EBSMEntidad.nombre + " " + entities.EBSMEntidad.apellido);
 };
